@@ -1,20 +1,16 @@
 {
-  "name": "testimonial-serverless",
+  "name": "testimonial",
   "version": "1.0.0",
-  "description": "",
+  "description": "Serverless app using Gatsby, Netlify and FaunaDB.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "develop": "gatsby develop"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Tapas Adhikary",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.20.0",
-    "dotenv": "^8.2.0",
-    "gatsby": "^2.24.57",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "dotenv": "^8.2.0"
   }
 }
