@@ -1,0 +1,8 @@
+type Message {
+  text: String!
+  rating: Int!
+}
+
+type Query {
+  allMessages: [Message!]!
+}

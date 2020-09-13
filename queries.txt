@@ -1,0 +1,17 @@
+mutation {
+  createMessage(data: { text: "This is so cool", rating: 5 }) {
+    _id
+    text
+    rating
+  }
+}
+
+query {
+  allMessages {
+    data {
+      _id
+      text
+      rating
+    }
+  }
+}
