@@ -1,0 +1,14 @@
+.rating {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel .slide {
+    padding: 20px;
+    font-size: 20px;
+}
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+}
