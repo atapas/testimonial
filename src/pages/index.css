@@ -12,3 +12,18 @@ body {
     background-color: #000000;
     color: #FFFFFF;
 }
+
+.auth-btn-grp {
+    float: right;
+    padding: 5px;
+}
+
+.create-testimonial {
+    color: #000000;
+}
+
+.create-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
