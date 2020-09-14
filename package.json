@@ -11,11 +11,16 @@
   "author": "Tapas Adhikary",
   "license": "MIT",
   "dependencies": {
+    "@reach/dialog": "^0.11.2",
+    "@reach/tabs": "^0.11.2",
+    "@reach/visually-hidden": "^0.11.1",
     "axios": "^0.20.0",
     "dotenv": "^8.2.0",
     "gatsby": "^2.24.57",
+    "gatsby-plugin-netlify-identity": "^0.0.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-netlify-identity-widget": "^0.2.7",
     "react-responsive-carousel": "^3.2.9",
     "react-stars": "^2.2.5"
   }
