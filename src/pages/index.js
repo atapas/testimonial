@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';	
 import axios from "axios";
+
 import ReactStars from 'react-stars';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
@@ -37,27 +38,28 @@ export default () => {
         showThumbs={false}
         showStatus={false}
         autoPlay={false} >
-      {testimonials && testimonials.map((testimonial, index) => (
-        <div key={ index } className="testimonial"> 
-          <img 
-            src={ getAvatar() } 
-            height="50px"
-            width="50px"
-            alt="avatar" />
-          <div className="message">
-            <ReactStars
-                className="rating"
-                count={ testimonial.rating }
-                size={24}
-                color1={'#ffd700'} 
-                edit={false}
-                half={false} />
-            <p className="text">
-              { testimonial.text }
-            </p>
-          </div>
-        </div>
-      ))}
+        
+        {testimonials && testimonials.map((testimonial, index) => (
+            <div key={ index } className="testimonial"> 
+            <img 
+                src={ getAvatar() } 
+                height="50px"
+                width="50px"
+                alt="avatar" />
+            <div className="message">
+                <ReactStars
+                    className="rating"
+                    count={ testimonial.rating }
+                    size={24}
+                    color1={'#ffd700'} 
+                    edit={false}
+                    half={false} />
+                <p className="text">
+                { testimonial.text }
+                </p>
+            </div>
+            </div>
+        ))}
     </Carousel>
   );	
 }
