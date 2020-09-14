@@ -16,6 +16,7 @@ body {
 .auth-btn-grp {
     float: right;
     padding: 5px;
+    margin: 2px;
 }
 
 .create-testimonial {
