@@ -23,6 +23,7 @@ This app demonstrates the ease of building a `serverless app` using Gatsby, Netl
 Follow these articles to build the app along side:
 - [How to build a serverless app with Gatsby, Netlify and FaunaDB - Part 1](https://blog.greenroots.info/how-to-build-a-serverless-app-with-gatsby-netlify-and-faunadb-part-1-ckf2dpwy200idbns1fbgpg7kx)
 - [How to build a serverless app with Gatsby, Netlify and FaunaDB - Part 2](https://blog.greenroots.info/how-to-build-a-serverless-app-with-gatsby-netlify-and-faunadb-part-2-ckf3xvyo000x1bos16t415jy7)
+- [How to build a serverless app with Gatsby, Netlify and FaunaDB - Part 3](https://blog.greenroots.info/how-to-build-a-serverless-app-with-gatsby-netlify-and-faunadb-part-3-ckf6jsmmm01ko2xs1cbp844er)
 
 ## Other good reads
 - [Getting started with FaunaDB](https://docs.fauna.com/fauna/current/start/cloud)
