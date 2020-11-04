@@ -4,6 +4,10 @@ This app demonstrates the ease of building a `serverless app` using Gatsby, Netl
 
 <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1600313249501/cZ51Ca49H.gif?border=1,CCCCCC&auto=compress" alt="testimonial-app " />
 
+# Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
+
+[![Stargazers repo roster for @atapas/testimonial](https://reporoster.com/stars/atapas/testimonial)](https://github.com/atapas/testimonial/stargazers)
+
 # Install dependencies
 
 - `npm install -g gatsby-cli`: Install gatsby-cli globally
